@@ -82,7 +82,7 @@ export const UserCard = ({id, name, username, email}) => {
 					<ItemActionBtn
 						onClick={deleteCurrentUser}
 						icon={<DeleteIcon color={PINK} />}
-						disabled={isEditable}
+						disabled={isEditable || isFrozen}
 					/>
 					<Divider horizontal={8} />
 					{!isFrozen && (
