@@ -1,0 +1,14 @@
+.wrapper {
+	width: 36px;
+	height: 36px;
+	padding: 6px;
+	border-radius: 50%;
+	box-shadow: var(--box-shadow-light);
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.disabled {
+	pointer-events: none;
+	opacity: 0.5;
+}

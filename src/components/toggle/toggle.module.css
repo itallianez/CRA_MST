@@ -1,0 +1,47 @@
+.disabled {
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+.toggle_wrapper {
+	position: relative;
+	max-width: 40px;
+	width: 100%;
+	height: 20px;
+	border-radius: 10px;
+	background-color: var(--white);
+	transition: var(--transition);
+	cursor: pointer;
+	box-shadow: var(--box-shadow);
+}
+
+.toggle_wrapper_active {
+	background-color: var(--pink);
+}
+
+.title {
+	color: var(--main-text);
+	font-size: 16px;
+	font-weight: 500;
+	transition: var(--transition);
+}
+
+.title_disabled {
+	color: var(--main-text-light);
+}
+
+.point {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background-color: var(--pink);
+	transition: var(--transition);
+}
+
+.point_active {
+	left: 22px;
+	background-color: var(--white);
+}

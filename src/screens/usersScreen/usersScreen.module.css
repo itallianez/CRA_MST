@@ -1,0 +1,48 @@
+.page_wrapper {
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 16px;
+	background-color: var(--light-pink);
+	background-image: url('../../assets/pngwing.com.png');
+	background-position: top left;
+	background-size: 600px 600px;
+	background-repeat: repeat;
+}
+
+.content_wrapper {
+	max-width: 600px;
+	width: 100%;
+	height: 100%;
+	padding: 16px;
+	background-color: var(--white);
+	box-shadow: var(--box-shadow-black);
+	border-radius: var(--border-radius);
+}
+
+.top_panel_wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 16px;
+	padding: 0 16px;
+}
+
+.panel_title {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.user_list_wrapper {
+	height: calc(100% - 48px);
+	overflow-y: auto;
+	padding: 16px;
+}
+
+.empty_list {
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+}

@@ -1,0 +1,15 @@
+.input {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	border: none;
+	border-bottom: 2px solid var(--light-pink);
+	display: block;
+	width: 100%;
+	color: var(--main-text);
+	outline: none;
+}
+
+.input:read-only {
+	border: none;
+}
